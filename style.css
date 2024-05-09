@@ -15,8 +15,9 @@ header {
 
 body {
     background-image: url(https://png.pngtree.com/background/20230608/original/pngtree-in-the-style-of-creepypasta-picture-image_2903936.jpg);
-    background-size: cover;
+    background-size: fit;
     background-repeat: no-repeat;
+    display: flex;
 }
 
 @media only screen and (max-width: 768px) {
@@ -44,7 +45,6 @@ body {
     color: #fcf4d9;
     display: block;
     font-family: 'Creepster', sans-serif;
-    display: grid;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -53,7 +53,7 @@ body {
 }
 
 .transbox {
-    width: 600px;
+    width: 50%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
