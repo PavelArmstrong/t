@@ -19,15 +19,6 @@ body {
     background-repeat: no-repeat;
 }
 
-/* Example of a media query for screens smaller than 768px */
-@media only screen and (max-width: 400px) {
-    body {
-        width: 90%;
-        height: 90%;
-    }
-}
-
-
 /* sidebar menu*/
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -97,7 +88,7 @@ footer {
 }
 
 .hed {
-    display: grid;
+    display: in-line-grid;
 }
 
 .nav {
