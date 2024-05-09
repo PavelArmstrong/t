@@ -1,0 +1,130 @@
+html, body {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://thoughtcatalog.com/wp-content/uploads/2017/09/robson-hatsukami-morgan-134764-e1505754597557.jpg?w=1536&h=768&crop=1);
+    background-size: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Adjust size to cover the viewport */
+    }
+}
+
+/* Media query for larger screens */
+@media (min-width: 769px) {
+    body {
+        background-size: contain; /* Adjust size to fit within the viewport */
+    }
+}
+
+h1 {
+    font-family: 'Creepster', sans-serif;
+    margin: 0; 
+}
+
+h1 a {
+    cursor: pointer;
+    color: #fcf49d;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+/* trans box 1*/
+.transbox {
+    width: 600px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tit1 {
+    font-weight: bold;
+}
+
+/* trans box 2 */
+.transbox2 {
+    width: 600px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tit2 {
+    font-weight: bold;
+}
+
+/* trans box 3 */
+.transbox3 {
+    width: 600px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tit3 {
+    font-weight: bolder;
+}
+
+/* trans box 4 */
+.transbox4 {
+    width: 600px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tit4 {
+    font-weight: bolder;
+}
+
+/* trans box 5 */
+.transbox5 {
+    width: 600px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tit5 {
+    font-weight: bolder;
+}
+
