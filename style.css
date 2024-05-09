@@ -53,7 +53,7 @@ body {
 }
 
 .transbox {
-    width: 600vh;
+    width: 600px;
     height: auto;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
