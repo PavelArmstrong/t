@@ -15,7 +15,7 @@ header {
 
 body {
     background-image: url(https://png.pngtree.com/background/20230608/original/pngtree-in-the-style-of-creepypasta-picture-image_2903936.jpg);
-    background-size: cover;
+    background-size: fit;
     background-repeat: no-repeat;
 }
 
