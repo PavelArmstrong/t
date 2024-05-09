@@ -19,6 +19,12 @@ body {
     background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 768px) {
+  .sidenav {
+    display: none;
+  }
+}
+
 /* sidebar menu*/
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
