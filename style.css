@@ -15,7 +15,7 @@ header {
 
 body {
     background-image: url(https://png.pngtree.com/background/20230608/original/pngtree-in-the-style-of-creepypasta-picture-image_2903936.jpg);
-    background-size: fit;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
 }
@@ -54,7 +54,7 @@ body {
 
 .transbox {
     width: 50%;
-    height: auto;
+    height: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -91,20 +91,4 @@ footer {
 
 .social-media a:hover {
     text-decoration: underline; /* Underline on hover */
-}
-
-.hed {
-    display: grid;
-}
-
-.nav {
-    display: grid;
-}
-
-.box {
-    display: grid;
-}
-
-.f {
-    display: grid;
 }
