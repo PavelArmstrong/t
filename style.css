@@ -15,13 +15,13 @@ header {
 
 body {
     background-image: url(https://png.pngtree.com/background/20230608/original/pngtree-in-the-style-of-creepypasta-picture-image_2903936.jpg);
-    background-size: fit;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 768px) {
   .sidenav {
-    display: block;
+    display: flex;
   }
 }
 
@@ -94,7 +94,7 @@ footer {
 }
 
 .hed {
-    display: in-line-grid;
+    display: grid;
 }
 
 .nav {
