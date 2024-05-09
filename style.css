@@ -96,3 +96,18 @@ footer {
     text-decoration: underline; /* Underline on hover */
 }
 
+.hed {
+    display: grid;
+}
+
+.nav {
+    display: grid;
+}
+
+.box {
+    display: grid;
+}
+
+.f {
+    display: grid;
+}
